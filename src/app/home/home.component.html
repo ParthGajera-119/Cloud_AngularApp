@@ -1,0 +1,5 @@
+<div class="home-container">
+    <input type="file" (change)="onFileSelected($event)">
+    <button (click)="onUpload()">Upload</button>
+    <textarea class="upload-response-text" readonly>{{ uploadResponse }}</textarea>
+  </div>
